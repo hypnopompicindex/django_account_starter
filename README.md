@@ -12,7 +12,7 @@ to installed apps, add:
 
 ```
 INSTALLED_APPS = (
-    django_account_starter,
+    'django_account_starter',
 )
 ```
 
