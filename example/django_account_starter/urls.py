@@ -2,6 +2,9 @@ from django.conf.urls import url
 from . import views
 
 urlpatterns = [
+    # registration url
+    url(r'^register/$', views.register, name='register'),
+
     # login / logout urls
     url(r'^login/$', views.user_login, name='login'),
     url(r'^logout/$', 'django.contrib.auth.views.logout', name='logout'),
